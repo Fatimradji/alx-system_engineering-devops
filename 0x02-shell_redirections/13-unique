@@ -1,2 +1,2 @@
 #!/bin/bash
-sort |uniq --unique13-unique
+sort | uniq -u
