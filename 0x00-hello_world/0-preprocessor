@@ -1,0 +1,6 @@
+#!/bin/bash
+case $HELLO in
+    '' ) foo="World" ;;
+    * ) foo="Hello" ;;
+esac
+echo "$foo" # Note quoting
