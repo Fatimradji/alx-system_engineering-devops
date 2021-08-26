@@ -1,6 +1,2 @@
 #!/bin/bash
-case $HELLO in
-    '' ) foo="World" ;;
-    * ) foo="Hello" ;;
-esac
-echo "$foo" # Note quoting
+export CFILE=0-main.c ; ./0-preprocessor
